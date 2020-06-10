@@ -1,7 +1,7 @@
 def BFS(g, s, discovered):
     """Perform BFS of the undiscovered portion of Graph g starting at Vertex s.
 
-    discoverred is a dictionary mapping each vertex to the edge that was used to
+    discovered is a dictionary mapping each vertex to the edge that was used to
     discover it during the BFS (s should be mapped to None prior to the call).
     Newly discovered vertices will be added to the dictionary as a result.
     """
